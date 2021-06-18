@@ -28,7 +28,7 @@ const Cita = ({ cita, eliminarCita }) => (
     </button>
   </div>
 );
-Cita.PropTypes = {
+Cita.propTypes = {
   cita: PropTypes.object.isRequired,
   eliminarCita: PropTypes.func.isRequired,
 };
